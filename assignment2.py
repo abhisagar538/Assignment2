@@ -16,11 +16,11 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS users (
 
 # Insert values into the table
 user_data = [
-    ('John Doe', '9876541320','john@example.com'),
-    ('Jane Smith','9842154644', 'jane@example.com'),
-    ('Bob Johnson','9854652132', 'bob@example.com'),
-    ('Adam Leach','8754213265','adam@example.com'),
-    ('Jack Paul','9854876532','jackp@example.com')
+    ('Rakshitha', '8073889241','ragp21ec@cmrir.ac.in'),
+    ('Chirag','8073889241', 'chirag@gmail.com'),
+    ('Sanyog','8073889241', 'sanyog@gmail.com'),
+    ('Reyansh','8073889241 ','reyansh@gmail.com'),
+    ('Mamtha','8073889241 ','mamtha@gmail.com')
 ]
 
 cursor.executemany('''INSERT INTO users (name, cell, email) VALUES (?, ?, ?)''', user_data)
